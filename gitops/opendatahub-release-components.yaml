@@ -1571,7 +1571,7 @@ spec:
   source:
     git:
       dockerfileUrl: Dockerfile
-      revision: konflux-poc
+      revision: release-v3.4.0
       url: https://github.com/opendatahub-io/llm-d-inference-scheduler.git
 ---
 apiVersion: appstudio.redhat.com/v1alpha1
@@ -1998,7 +1998,7 @@ spec:
     git:
       context: .
       dockerfileUrl: Dockerfile
-      revision: release-v0.5
+      revision: release-v3.4.0
       url: https://github.com/opendatahub-io/workload-variant-autoscaler
 ---
 apiVersion: appstudio.redhat.com/v1alpha1
@@ -2016,7 +2016,7 @@ spec:
     git:
       context: services/uds_tokenizer
       dockerfileUrl: Dockerfile
-      revision: release-v0.5
+      revision: release-v3.4.0
       url: https://github.com/opendatahub-io/llm-d-kv-cache
 ---
 apiVersion: appstudio.redhat.com/v1alpha1
@@ -2034,7 +2034,7 @@ spec:
     git:
       context: .
       dockerfileUrl: dockerfile/Dockerfile.apiserver.konflux
-      revision: release-v0.5
+      revision: release-v3.4.0
       url: https://github.com/opendatahub-io/batch-gateway
 ---
 apiVersion: appstudio.redhat.com/v1alpha1
@@ -2052,6 +2052,6 @@ spec:
     git:
       context: .
       dockerfileUrl: dockerfile/Dockerfile.processor.konflux
-      revision: release-v0.5
+      revision: release-v3.4.0
       url: https://github.com/opendatahub-io/batch-gateway
 ---
